@@ -35,14 +35,7 @@
 
 			header("Refresh:2; url=login.php");
 			
-			// if ($result==1){
-			// 	echo "<h2>Успешная регистрация. Вы будете перенаправлены на форму авторизации.</h2>";
-			// }
-			// else
-			// 	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 			
-			
-
 		?>
 	</body>
 </html>
