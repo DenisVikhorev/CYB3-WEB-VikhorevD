@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Demo 1</title>
+		<meta charset="utf-8" />
+		<style>
+			h1 {
+				color:grey;
+				background-color: silver;
+			}
+		</style>
+		<script>
+			function sayHello() {
+				document.getElementById("hdr1").innerText = "Hello, world!";
+				document.getElementById("hdr1").style.color = "red";
+				document.getElementById("hdr1").style.background = "yellow";
+				document.getElementById("cat").style.display = "none";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<a href ="index1.html">Домашняя страница</a>
+		<h1 id="hdr1">Просто страница</h1>
+		<button onclick="sayHello();">Click me!</button>
+		<p>Наполнение</p>
+		<h1>Section 2</h1>
+		<img src="images/kitty.jpg" style="width: 400px" id="cat"/> <br />
+		<p>
+			<a href="https://microsoft.com">See Microsoft</a>
+			<table border="1" style="width: 50%">
+				<tr>
+					<td>1111</td>
+					<td>1111</td>
+					<td>1111</td>
+				</tr>
+				<tr>
+					<td>1111</td>
+					<td>1111</td>
+					<td>1111</td>
+				</tr>
+				<tr>
+					<td>1111</td>
+					<td>1111</td>
+					<td>1111</td>
+				</tr>
+			</table>
+		</p>
+	</body>
+
+</html>
